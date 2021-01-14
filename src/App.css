@@ -1,38 +1,60 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&family=Yeon+Sung&display=swap');
+
+body{
+  background: lightyellow;
+  font-family: "Yeon Sung", cursive;
+  font-size: 20px;
+}
+
+.btn{
+  background: rgb(74, 209, 250);
+  margin: 20px;
+  border: none;
+}
+
+.add-btn{
+  background: lightblue;
+  width: 40px;
+  height: 40px;
+}
+.app-title{
+  text-align: center;
+  color: rgb(255, 251, 17);
+  font-size: 70px;
+}
+.container{
+ background-color:rgb(255, 253, 148);
+ margin: auto;
+ width: 40%;
+ border-radius: 30px;
+ 
+}
+ul li {
+  background-color: rgb(255, 240, 148);
+  margin:5px;
+  border-radius: 30px;
+  padding:5px 40px;
+  font-size: 30px;
+}
+input {
+  border: none;
+  border-radius: 15px;
+  width: 70%;
+  height: 50px;
+  font-size: 25px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input:focus {
+  background-color: rgb(255, 240, 148);
+  border: none;
+  border-radius: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.m-btn{
+  font-size: 25px;
+  padding: 9px 30px;
+  color: black;
+  background-color: rgb(255, 240, 148);
+  border-radius: 15px;
+  margin: 5px;
 }
